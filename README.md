@@ -1,3 +1,4 @@
+# Installation
 Install the package by typing this into your terminal:
 ```
 npm i zeros_digital_root
@@ -7,7 +8,7 @@ Import the package by requiring it in your file(s):
 ```
 require("zeros-digital-root");
 ```
-
+# Description
 This package was inspired by the Zero Escape Series, a horror, science-fiction visual novel created by Spike Chunsoft.
 
 What is a digital root? According to wikipedia:
