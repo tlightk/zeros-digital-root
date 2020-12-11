@@ -1,0 +1,15 @@
+{
+  "name": "zeros_digital_root",
+  "version": "1.0.2",
+  "description": "A function for calculating the digital root of any positive integer",
+  "main": "digital-root.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "klayxi",
+  "license": "ISC",
+  "keywords": [
+    "digital",
+    "root"
+  ]
+}
