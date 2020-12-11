@@ -1,5 +1,5 @@
 const { expect } = require("chai");
-const { digitalRoot } = require("../digitalRoot.js");
+const { digitalRoot } = require("../digital-root.js");
 
 describe("digitalRoot", function () {
   it("should return the correct digital root", () => {
