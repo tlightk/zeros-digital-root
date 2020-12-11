@@ -4,7 +4,14 @@
   "description": "A function for calculating the digital root of any positive integer",
   "main": "digital-root.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pre-commit": "pretty-quick --staged --no-restage",
+    "pre-push": "npm run test",
+    "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable",
+    "preversion": "npm test",
+    "postversion": "git push origin --tags --no-verify",
+    "test": "mocha"
   },
   "author": "klayxi",
   "license": "ISC",
