@@ -45,3 +45,5 @@ function digitalRoot(num) {
 
     return sumArray[0];
 }
+
+module.exports = { digitalRoot };
