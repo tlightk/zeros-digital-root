@@ -11,5 +11,12 @@
   "keywords": [
     "digital",
     "root"
-  ]
+  ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "husky": "^4.3.5",
+    "mocha": "^8.2.1",
+    "pinst": "^2.1.1",
+    "prettier": "^2.2.1"
+  }
 }
